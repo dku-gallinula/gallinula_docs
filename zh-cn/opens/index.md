@@ -1,0 +1,6 @@
+# 2. 开放功能
+
+## 授权登陆/注册 (Unofficial SSO)
+> updating...
+## 论坛开放API
+> updating...

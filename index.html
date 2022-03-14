@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
+    <meta charset="UTF-8" />
+    <title>Gallinula Open (alpha)</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+  </head>
+  <style>
+    h1.app-name > a > img {
+      width: 200px;
+      height: auto;
+    }
+  </style>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        loadSidebar: true,
+        subMaxLevel: 2,
+        alias: {
+          "./.*/_sidebar.md": "./zh-cn/_sidebar.md",
+        },
+        coverpage: true,
+        name: "Gallinula",
+        repo: "junkaiman/gallinula_docs",
+        logo: "https://gallinula.com/header.png",
+        loadNavbar: "./_navbar.md",
+        homepage: "./zh-cn/README.md",
+        loadFooter: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"
+    />
+
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script>
+      const gitalk = new Gitalk({
+        clientID: "9e5889ad98acbcb7ce96",
+        clientSecret: "bdbf9355ea5317ef1d0f3910a8b0e32ae96bdc96",
+        repo: "gallinula_docs",
+        owner: "junkaiman",
+        admin: [
+          "junkaiman",
+        ],
+        distractionFreeMode: false,
+        // language: 'en'
+      });
+    </script>
+  </body>
+</html>
