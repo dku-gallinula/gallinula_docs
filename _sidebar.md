@@ -1,2 +1,5 @@
 * [1. Gallinula是什么？](/zh-cn/intro/index.md)
-* [2. 开放功能](/zh-cn/instruction/index.md)
+* [2. 开放功能](/zh-cn/opens/index.md)
+* [3. 示例：授权用户登陆](/zh-cn/examples/sso.md)
+* [4. 示例：开发一个论坛机器人](/zh-cn/examples/bot.md)
+* [5. Changelog](/zh-cn/changelog/index.md)
